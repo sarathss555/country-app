@@ -1,0 +1,24 @@
+// custom.scss
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+.slider-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+button.active-filter {
+  border-bottom: 2px solid #0d6efd; // Bootstrap primary color
+  border-radius: 0 !important;
+}
